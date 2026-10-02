@@ -1,254 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#15131f">
+    <meta name="description" content="Shashi Kumar — AI and DevSecOps engineer building secure, agentic systems.">
+    <meta name="keywords" content="Shashi Kumar, AI, DevSecOps, cybersecurity, secure SDLC, MCP, autonomous agents">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Shashi Kumar — AI & DevSecOps Engineer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
-  <title>
-    Shashi Kumar | A Software Developer, CyberSecurity and IAM analyst based in Ranchi, Jharkhand, India.
-  </title>
-
-  <meta name="description" content="A Software Developer based in Ranchi, Jharkhand, India">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="flutter,react,dart,php,IAM, cybersecurity, Sailpoint,JavaScript,Css,GENAI" />
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
+    <header class="hero" id="top">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Shashi Kumar home">SK<span>·</span></a>
+        <div class="nav__links">
+          <a href="#work">What I’m building</a>
+          <a href="#about">About</a>
+          <a class="nav__contact" href="#contact">Let’s talk <span>↗</span></a>
+        </div>
       </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Shashi Kumar</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A GENAI Enabler, Software Developer, CyberSecurity and IAM analyst based in Ranchi, Jharkhand, India.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
 
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-          <div class="work__text">
-              <h3>Local LLM with RAG</h3>
-              <p>
-                Use your local LLM to generate context on your documents and do Q&A. Your data will always be in your environment.
-              </p>
-              <ul class="work__list">
-                <li>Ollama</li>
-                <li>PHI3</li>
-                <li>Python</li>
-                <li>Streamlit</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/strbbrn/local-llm-with-rag" target="_blank" class="link__text">
-                  Check out the project <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/strbbrn/local-llm-with-rag" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <!-- <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div> -->
-        </div>
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Fluttter-School-App</h3>
-              <p>
-                A free Open Source School App based on flutter framework for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>PHP</li>
-                <li>MySql/SqfLite</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/strbbrn/Fluttter-School-App" target="_blank" class="link__text">
-                  Check out the project <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/strbbrn/Fluttter-School-App" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <!-- <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div> -->
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Flutter-Wordpress-Blog
-              </h3>
-              <p>
-                A free Open Source Wordpress App based on flutter framework for anyone to use for free.
-                Use it as Normal wordprss blog app or News App or Story App.
-              </p>
-              </p>
-              <ul class="work__list">
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>Wordpress Api</li>
-                <li>SqfLite</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/strbbrn/Flutter-Wordpress-Blog" class="link__text">
-                  Check out the project <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/strbbrn/Flutter-Wordpress-Blog">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <!-- <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div> -->
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Ecommerce</h3>
-              <p>
-                Simple Lite Ecommerce with Paypal Integration.
-              </p>
-              <ul class="work__list">
-                <li>PHP</li>
-                <li>MySql</li>
-
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/strbbrn/Ecommerce" class="link__text">
-                  Check out the project <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/strbbrn/Ecommerce">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-             
-              <!-- <img src="./images/project-3.png" class="work__image" alt="Project 3" /> -->
-            </div>
-          </div>
+      <div class="hero__content container">
+        <p class="eyebrow"><span></span> AI / DevSecOps / India</p>
+        <h1>Secure systems<br>for an <em>agentic</em><br>future.</h1>
+        <div class="hero__bottom">
+          <p class="hero__intro">I’m Shashi — an AI &amp; DevSecOps engineer building practical multi-agent systems and secure software delivery practices.</p>
+          <a class="circle-link" href="#work" aria-label="Explore selected work">↓</a>
         </div>
       </div>
-    </section>
+      <div class="hero__orb" aria-hidden="true"></div>
+      <p class="hero__location">Ranchi, India <span>23.36° N / 85.33° E</span></p>
+    </header>
 
+    <main id="main">
+      <section class="intro container" aria-labelledby="approach-title">
+        <p class="section-number">01 / Approach</p>
+        <div>
+          <h2 id="approach-title">AI that ships with security <em>built in.</em></h2>
+          <p class="large-copy">I work on AI-led cybersecurity strategies, agentic platforms, and the DevSecOps practices that help teams build and ship with confidence.</p>
+        </div>
+      </section>
 
-    <!-- ***** About ***** -->
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">02 / What I’m building</p>
+            <h2 id="work-title">Open platforms for an <em>agentic</em> web.</h2>
+          </div>
+          <div class="projects">
+            <article class="project project--featured">
+              <div class="project__index">01</div>
+              <div class="project__visual visual--rag"><span>free<br>MCP</span><i></i><b>registry</b></div>
+              <div class="project__details">
+                <p class="project__type">Open source / MCP ecosystem</p>
+                <h3>Free MCP Registry</h3>
+                <p>Building an open-source registry at freemcp.in to make Model Context Protocol resources easier for builders to discover and use.</p>
+                <ul class="tags"><li>Model Context Protocol</li><li>Open source</li><li>AI tooling</li></ul>
+                <a href="https://freemcp.in/" target="_blank" rel="noreferrer">Visit freemcp.in <span>↗</span></a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__index">02</div>
+              <div class="project__visual visual--school"><span>autonomous<br>agents</span><i>✦</i></div>
+              <div class="project__details">
+                <p class="project__type">AI / Multi-agent systems</p>
+                <h3>Autonomous Agents</h3>
+                <p>Designing multi-agent systems at autonomousagents.in — focused on useful autonomy and the real-world systems around it.</p>
+                <ul class="tags"><li>Agentic AI</li><li>Multi-agent systems</li><li>Autonomy</li></ul>
+                <a href="https://autonomousagents.in/" target="_blank" rel="noreferrer">Visit autonomousagents.in <span>↗</span></a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__index">03</div>
+              <div class="project__visual visual--blog"><span>AI-led<br>security</span><i>⌁</i></div>
+              <div class="project__details">
+                <p class="project__type">DevSecOps / Secure SDLC</p>
+                <h3>Secure delivery practice</h3>
+                <p>Exploring AI-led cybersecurity strategies across the software supply chain, from CI/CD security to cloud and infrastructure hardening.</p>
+                <ul class="tags"><li>CI/CD security</li><li>SBOM</li><li>SCA &amp; SAST</li><li>IaC hardening</li></ul>
+                <a href="https://agentagi.si/" target="_blank" rel="noreferrer">Explore Agent AGI <span>↗</span></a>
+              </div>
+            </article>
+          </div>
+          <a class="all-work" href="https://github.com/strbbrn" target="_blank" rel="noreferrer">Explore GitHub <span>→</span></a>
+        </div>
+      </section>
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
+      <section class="about container" id="about" aria-labelledby="about-title">
+        <p class="section-number">03 / About</p>
         <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Professionally Software Engineer,
-              Making projects which help engineers to build awesome things </p>
-            <!-- Provide a link to your resume -->
-            <a href="mailto:skybirdwebmedia@gmail.com" class="btn">Ask for Resume</a> <a href="https://github.com/strbbrn/"  class="btn">View All Repo</a>
+          <div>
+            <h2 id="about-title">Security-minded.<br><em>AI-driven.</em></h2>
+            <p class="large-copy">I’m currently working on AI-led cybersecurity strategies and building in DevSecOps, Secure SDLC, and cloud security. Ask me about AI, PHP, JavaScript, DevSecOps, and cybersecurity.</p>
+            <a class="text-link" href="mailto:skybirdwebmedia@gmail.com">Ask for my résumé <span>↗</span></a>
           </div>
-
-           <div class="about__photo-container">
-            
-            <img class="about__photo" src="https://avatars.githubusercontent.com/u/24987213" alt="Github" />
-          </div>
+          <aside class="capabilities" aria-label="Capabilities">
+            <p>Focus areas</p>
+            <ul><li>AI &amp; agentic systems</li><li>Secure SDLC</li><li>Cloud security</li><li>DevSecOps automation</li></ul>
+            <p class="certifications">Certifications</p>
+            <div class="certification-links">
+              <a href="https://www.credly.com/badges/2092a613-f6f0-4d41-8e01-0a1a8e65b52e" target="_blank" rel="noreferrer">GitHub Actions ↗</a>
+              <a href="https://www.credly.com/badges/c380a93f-5385-435c-be06-fbd4f09cb34e" target="_blank" rel="noreferrer">Copilot Foundations ↗</a>
+              <a href="https://www.credly.com/badges/9ecc52e0-8c58-4517-92e4-63a26e2e5c84" target="_blank" rel="noreferrer">GitHub Advanced Security ↗</a>
+            </div>
+          </aside>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <!-- ***** Contact ***** -->
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <p class="section-number">04 / Contact</p>
+          <h2 id="contact-title">Have an idea?<br><em>Let’s make it real.</em></h2>
+          <p>Working on secure AI, an agentic workflow, or a better delivery pipeline? Let’s connect.</p>
+          <a class="email-link" href="mailto:skybirdwebmedia@gmail.com">skybirdwebmedia@gmail.com <span>↗</span></a>
+        </div>
+      </section>
+    </main>
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website or app to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:skybirdwebmedia@gmail.com" class="btn">skybirdwebmedia@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/strbbrn/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/strbbrn/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/strbbrn/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
-              alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    <footer class="footer container">
+      <p>© <span id="year"></span> Shashi Kumar</p>
+      <div><a href="https://github.com/strbbrn" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/strbbrn/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://twitter.com/strbbrn/" target="_blank" rel="noreferrer">Twitter</a></div>
+      <a href="#top" aria-label="Back to top">Back to top ↑</a>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
